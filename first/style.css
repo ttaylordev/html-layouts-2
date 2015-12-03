@@ -6,25 +6,84 @@ html,body {
   width: 100%;
 }
 header {
-  height: 150px;
+  height: 140px;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-top: 3.8%;
+}
+.slot {
+ height: 85%;
+ width: calc(100%/3);
+}
+.one {
+  background-color: purple;
+  margin-left: 20px;
+}
+.two {
+  background-color: teal;
+  margin: 0px 30px 0px 30px;
+}
+.three {
+  background-color: green;
+  margin-right: 20px;
+}
+p {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 50px 30px;
+}
+.contentBox {
+  height: 27%;
+  width: 100%;
+  padding: 0px;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.left {
+  height: 100%;
+  width: 30%;
+  background-color: purple;
+  padding: 0px;
+  margin: 0px;
+
+}
+.right {
+  height: 100%;
+  width: 70%;
+  background-color: teal;
+  padding: 0px;
+  margin: 0px;
+}
+footer {
+  height: 12%;
   width: 100%;
   background-color: grey;
   display: inline-flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  padding: 1%;
+  padding: 0px;
 }
-.slot {
- height: 90%;
- width: calc(100%/3);
- margin: 0px 10px 0px 10px;
+.foots {
+
 }
-.one {
-  background-color: purple;
-}
-.two{
+.first {
   background-color: teal;
+  flex-grow: 70;
 }
-.three{
+.second {
+  background-color: purple;
+  flex-grow: 5;
+}
+.third {
   background-color: green;
+  flex-grow: 20;
+}
+.fourth {
+  background-color: purple;
+  flex-grow: 5;
 }
